@@ -98,7 +98,7 @@ console.log("Does the dog love to play and love the dog parks?", lovesToPlay && 
 console.log("Does the dog love to play or love the dog park?", lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-console.log("Does the dog love to play && is a puppy?", lovesToPlay && age)
+console.log("Does the dog love to play && is a puppy?", lovesToPlay && age < 2)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// The final code stated only one as 1 is a integer and not a string. The variable for age is not puppy as puppy is not defined.
+// The code resulted in a true as the dog loves to play under the variable and the age was under 2 resulting in the dog being a puppy. 

@@ -1,8 +1,7 @@
-var number = 1
+var number = 2
 
 if (number % 2 === 0){
     console.log("Even")
-} else { 
+} else {
     console.log("Odd")
 }
-
