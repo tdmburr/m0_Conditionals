@@ -66,3 +66,6 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour === 1 && hasSauce === true){
+  console.log(`"I cannot make pizza"`)
+}
