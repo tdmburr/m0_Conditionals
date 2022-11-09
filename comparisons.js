@@ -22,25 +22,25 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log("is numberTeachers less than numberStudents?", numberTeachers < numberStudents)
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers)
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents)
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents greater than or equal to 20?", numberStudents >= 20)
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("is numberStudents greater than or equal to 21?", numberStudents >= 21)
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 20?", numberStudents <= 20)
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -53,21 +53,21 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+//The code is trying to identify that 4 is less than 9. 4 is less than 9 making the statement true.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+//The code is trying to identify that 4 is less than books. Books is not an integer making the statement false.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+//The code is trying to identify that friends is greater than siblings. Friends is 6 and siblings is 2 making the statement true.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+//The code is trying to identify that attendees does not strictly equal meals. Attendees is 9 and meals are 8 making the statement true.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -89,15 +89,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log("Does the dog love to play and loves treats?", lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log("Does the dog love to play and love the dog parks?", lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log("Does the dog love to play or love the dog park?", lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+console.log("Does the dog love to play && is a puppy?", lovesToPlay && age)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// The final code stated only one as 1 is a integer and not a string. The variable for age is not puppy as puppy is not defined.
